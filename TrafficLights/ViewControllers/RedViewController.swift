@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  RedViewController.swift
 //  TrafficLights
 //
 //  Created by Stefano Casafranca Laos on 10/22/24.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class RedViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

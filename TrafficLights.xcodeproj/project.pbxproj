@@ -7,15 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		491B012A2CC7FF32003684B3 /* GreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491B01292CC7FF32003684B3 /* GreenViewController.swift */; };
 		498EEE3A2CC7F9250043926A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498EEE392CC7F9250043926A /* AppDelegate.swift */; };
 		498EEE3C2CC7F9250043926A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498EEE3B2CC7F9250043926A /* SceneDelegate.swift */; };
-		498EEE3E2CC7F9250043926A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498EEE3D2CC7F9250043926A /* ViewController.swift */; };
+		498EEE3E2CC7F9250043926A /* RedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498EEE3D2CC7F9250043926A /* RedViewController.swift */; };
 		498EEE412CC7F9250043926A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 498EEE3F2CC7F9250043926A /* Main.storyboard */; };
 		498EEE432CC7F9260043926A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 498EEE422CC7F9260043926A /* Assets.xcassets */; };
 		498EEE462CC7F9260043926A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 498EEE442CC7F9260043926A /* LaunchScreen.storyboard */; };
 		498EEE512CC7F9270043926A /* TrafficLightsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498EEE502CC7F9270043926A /* TrafficLightsTests.swift */; };
 		498EEE5B2CC7F9270043926A /* TrafficLightsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498EEE5A2CC7F9270043926A /* TrafficLightsUITests.swift */; };
 		498EEE5D2CC7F9270043926A /* TrafficLightsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498EEE5C2CC7F9270043926A /* TrafficLightsUITestsLaunchTests.swift */; };
+		498EEE6A2CC7FC040043926A /* YellowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498EEE692CC7FC040043926A /* YellowViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		491B01292CC7FF32003684B3 /* GreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenViewController.swift; sourceTree = "<group>"; };
 		498EEE362CC7F9250043926A /* TrafficLights.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrafficLights.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		498EEE392CC7F9250043926A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		498EEE3B2CC7F9250043926A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		498EEE3D2CC7F9250043926A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		498EEE3D2CC7F9250043926A /* RedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedViewController.swift; sourceTree = "<group>"; };
 		498EEE402CC7F9250043926A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		498EEE422CC7F9260043926A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		498EEE452CC7F9260043926A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +52,7 @@
 		498EEE562CC7F9270043926A /* TrafficLightsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrafficLightsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		498EEE5A2CC7F9270043926A /* TrafficLightsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficLightsUITests.swift; sourceTree = "<group>"; };
 		498EEE5C2CC7F9270043926A /* TrafficLightsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficLightsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		498EEE692CC7FC040043926A /* YellowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YellowViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +105,7 @@
 			children = (
 				498EEE392CC7F9250043926A /* AppDelegate.swift */,
 				498EEE3B2CC7F9250043926A /* SceneDelegate.swift */,
-				498EEE3D2CC7F9250043926A /* ViewController.swift */,
+				498EEE6B2CC7FC0E0043926A /* ViewControllers */,
 				498EEE3F2CC7F9250043926A /* Main.storyboard */,
 				498EEE422CC7F9260043926A /* Assets.xcassets */,
 				498EEE442CC7F9260043926A /* LaunchScreen.storyboard */,
@@ -125,6 +129,16 @@
 				498EEE5C2CC7F9270043926A /* TrafficLightsUITestsLaunchTests.swift */,
 			);
 			path = TrafficLightsUITests;
+			sourceTree = "<group>";
+		};
+		498EEE6B2CC7FC0E0043926A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				498EEE3D2CC7F9250043926A /* RedViewController.swift */,
+				498EEE692CC7FC040043926A /* YellowViewController.swift */,
+				491B01292CC7FF32003684B3 /* GreenViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +272,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				498EEE3E2CC7F9250043926A /* ViewController.swift in Sources */,
+				498EEE6A2CC7FC040043926A /* YellowViewController.swift in Sources */,
+				498EEE3E2CC7F9250043926A /* RedViewController.swift in Sources */,
 				498EEE3A2CC7F9250043926A /* AppDelegate.swift in Sources */,
 				498EEE3C2CC7F9250043926A /* SceneDelegate.swift in Sources */,
+				491B012A2CC7FF32003684B3 /* GreenViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
